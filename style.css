@@ -1,0 +1,118 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+}
+h1{
+    
+}
+*{
+    box-sizing: border-box;
+}
+.name-highlight{
+    color: blueviolet;
+}
+
+.col-half{width: 40%;
+margin: 5%;
+padding-left: 2%;
+
+}
+.col-one-fourth{width: 25%;}
+.col-full{width: 100%;}
+
+[class*= "col-"]{
+    float: left;
+    
+}
+
+.col-half img{
+    width: 100%;
+    
+}
+
+@media only screen and (max-width:768px){
+    /*for small screen*/
+    [class*= "col-"]{
+        width:100%;
+    }
+}
+
+
+
+.banner-1{
+    background-image: url(./images/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+
+.linkdin-btn{
+
+    padding: 5px 35px 5px 35px;
+    font-size: medium;
+    font-weight: 600;
+    background-image: linear-gradient(50deg, rgb(215, 72, 240), rgb(47, 10, 214));
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+p, h4{
+    color: rgb(116, 116, 116);
+}
+
+.banner-2{
+    background-image: url(./images/dream-bg.png);
+    
+    background-position: right;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.fb-btn{
+
+    padding: 5px 35px 5px 35px;
+    font-size: medium;
+    font-weight: 600;
+    background-image: linear-gradient(30deg, rgb(100, 136, 236), rgb(59, 27, 204));
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.important-text{
+    color: blue;
+}
+
+.card-section{
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    background-image: url(./images/exp-bg.png);
+    background-position: left}
+
+.card{
+    height: 300px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 5px;
+    
+}
+
+#web-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(67, 192, 230), rgb(9, 9, 190));
+    border-image-slice: 1;
+}
+
+#Anroid{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(67, 230, 108), rgb(11, 105, 2));
+    border-image-slice: 1;
+}
+
+.footer p{
+    text-align: center;
+    background-image: linear-gradient(50deg,rgb(67, 192, 230), rgb(9, 9, 190));
+    color: white;
+}
